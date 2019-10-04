@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "YandexSansRegular";
+    src: url(fonts/YandexSansDisplay-Regular.ttf);
+}
+
+body {
+    font-family: "YandexSansRegular", sans-serif;
+    font-size: 10px;
+    background: black;
+}
+
+h1 {
+    font-size: 48px;
+    padding-left: 41px;
+    margin-top: 14px;
+    font-weight: 300;
+    margin-bottom: 0;
+    word-spacing: -2px;
+}
+
+h2 {
+    font-size: 27px;
+    line-height: 32px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    margin-top: 16px;
+    padding-left: 44px;
+}
+
+
+.container {
+    width: 540px;
+    height: 750px;
+    margin: 0 auto;
+    background: white;
+    border: 5px red double;
+}
+
+
+.course-content {
+    float: left;
+    padding-left: 45px;
+    width: 45%;
+    margin-right: 0;
+}
+
+.course-content p {
+    padding-bottom: 0;
+    margin-bottom: 7px;
+}
+
+.course-list {
+    padding-left: 13px;
+    margin: 0;
+}
+
+.course-list li {
+    margin-bottom: 3px;
+}
+
+.course-list li span {
+    position: relative;
+    left: -5px;
+    word-spacing: 3px;
+}
+
+
+.course-info {
+    float: right;
+    padding-right: 28px;
+    padding-top: 2px;
+    width: 40%;
+    text-align: left;
+}
+
+.course-info p {
+    padding-bottom: 7px;
+}
+
+.logo {
+    margin-left: 38px;
+    border-top: 37px double white;
+}
+
+.meet-date {
+    padding-left: 45px;
+    padding-top: 122px;
+}
+
+.pattern {
+    padding-top: 50px;
+}
